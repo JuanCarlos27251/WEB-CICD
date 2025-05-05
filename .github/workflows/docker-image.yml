@@ -34,8 +34,6 @@ jobs:
         images: juancarlospina/nube.sanvalero:WEB
         flavor: |
           latest=false
-        tags: |
-          type=raw,value=latest
 
     - name: Build and Push to Docker Hub
       id: docker_build
